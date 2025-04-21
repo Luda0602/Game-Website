@@ -129,7 +129,8 @@ header nav ul li.btn a:hover {
     font-weight: 600;
     font-size: 31px;
 }
-.trending .see-all {
+.trending .see-all,
+ .projects .see-all {
     color: #fff;
     background: #25211D;
     border-radius: 5px;
@@ -139,7 +140,9 @@ header nav ul li.btn a:hover {
     transition: all 500ms ease;
    
 }
-.trending .see-all:hover {
+
+.trending .see-all:hover,
+.projects .see-all:hover {
    transform: scale(1.1);
 }
 .trending .games {
@@ -225,4 +228,45 @@ header nav ul li.btn a:hover {
 }
 .features .info .block img {
     margin-bottom: 15px;
+}
+.projects {
+    padding: 100px 0;
+}
+.projects  h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.projects p {
+    margin: 40px 0;
+    text-align: center;
+}
+.projects .images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.projects .see-all {
+    float: none;
+    width: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+/* Нижня частина  */
+.email {
+    padding-bottom: 120px;
+}
+.email  h3 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+.email .block {
+    background: #1C140F;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
