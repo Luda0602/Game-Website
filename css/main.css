@@ -201,7 +201,7 @@ header nav ul li.btn a:hover {
 }
 /* Секція із зображеннями */
 .features {
-    background: url('/nature.png');
+    background: url('./nature.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
