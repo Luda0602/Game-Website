@@ -64,13 +64,13 @@ header nav ul li.active::after {
 header nav ul li:not(.active):not(.btn) a:hover {
 border-bottom: 5px solid #DC7000;
 }
-header nav ul li.btn a {
+header nav ul li.btn a, .email .block button {
     background: #FA9021;
     padding: 9px 17px;
     border-radius: 5px;
     transition: all 500ms ease;
 }
-header nav ul li.btn a:hover {
+header nav ul li.btn a:hover,.email .block button:hover {
     background: #DC7000;
 }
 /* hero */
@@ -201,7 +201,7 @@ header nav ul li.btn a:hover {
 }
 /* Секція із зображеннями */
 .features {
-    background: url('./img/nature.jpg');
+    background: url('../img/nature.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -278,5 +278,30 @@ header nav ul li.btn a:hover {
     font-weight: 500;
 }
 .email .block p {
-    
+    width: 500px;
+}
+.email .block input {
+    background: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 5%;
+    width: 380px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 400;
+    padding: 20px 30px;
+    position: relative;
+    right: -100px;
+    z-index: 1;
+    padding-right: 120px;
+}
+.email .block input::placeholder {
+    color: #898989;
+}
+.email .block button {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 17px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
 }
